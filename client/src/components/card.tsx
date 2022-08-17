@@ -1,11 +1,11 @@
-import { Movie } from "../utils/types/movie";
 import "./card.css";
+import { Movie } from "../utils/types/movie";
 export function Card(props: { movie: Movie }) {
   return (
-    <div>
-      <img src={props.movie.banner} height="150px" width="300px" />
+    <div className="card-component">
+      <img src={props.movie.banner} className="card-image" />
       <h2>{props.movie.title}</h2>
-      <h4>{props.movie.description}</h4>
+      <h3>{props.movie.producer}</h3>
     </div>
   );
 }
