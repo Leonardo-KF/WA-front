@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 4rem;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  margin-left: 10px;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.header-button {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  color: whiteSmoke;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: ease-in-out 0.2s;
+}
+
+.header-button:hover {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}

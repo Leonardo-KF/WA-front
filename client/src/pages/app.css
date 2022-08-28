@@ -1,6 +1,41 @@
 .main-page {
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  height: 100%;
+  width: 90%;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.footer-pagination {
+  display: flex;
+  width: 90%;
+  border-radius: 10px 10px 0 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.pagination-button-number {
+  display: flex;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin: 0 2px 0 2px;
+}
+
+.change-page-button {
+  display: flex;
+  background-color: transparent;
+  border: none;
 }
