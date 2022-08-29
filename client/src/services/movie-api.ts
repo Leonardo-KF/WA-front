@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:3333/movies/";
+const baseUrl = "https://wa-backend-production.up.railway.app/movies/";
 
 export const movieApi = {
   getMovies: async (page: number) => {
