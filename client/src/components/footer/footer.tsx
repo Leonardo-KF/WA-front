@@ -9,7 +9,7 @@ export function Footer() {
         target="blank"
         rel="noopener"
       >
-        Desenvolvido por Leonardo Fleck
+        Developed by Leonardo Fleck
       </a>
     </footer>
   );
